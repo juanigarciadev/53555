@@ -16,6 +16,9 @@ Accedé a la carpeta donde se encuentran los archivos fuente del proyecto:
 cd 53555/tareas
 ```
 
+> [!IMPORTANT]
+> Es sumamente importante que la dirección sea `53555/tareas` ya que es la única forma que la ejecución se realice correctamente.
+
 ### 3. Instalar las dependencias
 Descargá el entorno de ejecución de ANTLR4 para JavaScript necesario para que el proyecto funcione:
 ```
@@ -45,15 +48,15 @@ npm start
 ## Resultados del análisis
 
 ### Salida correcta
-![Resultados consola](./resultado.png)
+![Resultados consola](./images/resultado.png)
 
 ### Salida incorrecta
-![Resultados consola con error](./error_resultado.png)
+![Resultados consola con error](./images/error_resultado.png)
 
 ### Árbol de derivación
 El siguiente gráfico representa la estructura jerárquica generada para el código de prueba:
 
-![Árbol de Derivación](./arbol.png)
+![Árbol de Derivación](./images/arbol.png)
 
 ## Tareas realizadas por el analizador
 
