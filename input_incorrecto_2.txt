@@ -1,0 +1,10 @@
+tareas {
+    puntos = 10;
+    
+    // Error 1: Uso de un caracter no definido en el lexer ($)
+    si puntos == 10 $ { 
+        
+        // Error 2: Falta el paréntesis de cierre en mostrar
+        mostrar(puntos; 
+    }
+}

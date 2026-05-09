@@ -1,0 +1,6 @@
+tareas {
+    x = 10;
+    si x > 5 {
+        mostrar(x + 5);
+    }
+}

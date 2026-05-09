@@ -1,0 +1,9 @@
+tareas {
+    base = 100;
+    descuento = 20;
+    total = base - descuento;
+    
+    si total > 50 {
+        mostrar(total);
+    }
+}

@@ -1,0 +1,6 @@
+tareas {
+    x = 2 + 3;
+    y = 3;
+    z = x + y;
+    mostrar(z);
+}
