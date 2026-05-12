@@ -13,11 +13,8 @@ git clone https://github.com/juanigarciadev/53555.git
 ### 2. Navegar al directorio
 Accedé a la carpeta donde se encuentran los archivos fuente del proyecto:
 ```
-cd 53555/tareas
+cd 53555
 ```
-
-> [!IMPORTANT]
-> Es sumamente importante que la dirección sea `53555/tareas` ya que es la única forma que la ejecución se realice correctamente.
 
 ### 3. Instalar las dependencias
 Descargá el entorno de ejecución de ANTLR4 para JavaScript necesario para que el proyecto funcione:

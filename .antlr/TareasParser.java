@@ -1,4 +1,4 @@
-// Generated from c:/Users/Juani/Desktop/proyectos/53555/tareas/Tareas.g4 by ANTLR 4.13.1
+// Generated from c:/Users/Juani/Desktop/proyectos/53555/Tareas.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -110,14 +110,6 @@ public class TareasParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_programa; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterPrograma(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitPrograma(this);
-		}
 	}
 
 	public final ProgramaContext programa() throws RecognitionException {
@@ -175,14 +167,6 @@ public class TareasParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_instruccion; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterInstruccion(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitInstruccion(this);
-		}
 	}
 
 	public final InstruccionContext instruccion() throws RecognitionException {
@@ -249,14 +233,6 @@ public class TareasParser extends Parser {
 		}
 		public TerminalNode SEMI() { return getToken(TareasParser.SEMI, 0); }
 		public AssignContext(AsignacionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterAssign(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitAssign(this);
-		}
 	}
 
 	public final AsignacionContext asignacion() throws RecognitionException {
@@ -314,14 +290,6 @@ public class TareasParser extends Parser {
 			return getRuleContext(InstruccionContext.class,i);
 		}
 		public IfContext(CondicionalContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterIf(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitIf(this);
-		}
 	}
 
 	public final CondicionalContext condicional() throws RecognitionException {
@@ -389,14 +357,6 @@ public class TareasParser extends Parser {
 		public TerminalNode RPAR() { return getToken(TareasParser.RPAR, 0); }
 		public TerminalNode SEMI() { return getToken(TareasParser.SEMI, 0); }
 		public PrintContext(ImprimirContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterPrint(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitPrint(this);
-		}
 	}
 
 	public final ImprimirContext imprimir() throws RecognitionException {
@@ -444,14 +404,6 @@ public class TareasParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_condicion; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterCondicion(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitCondicion(this);
-		}
 	}
 
 	public final CondicionContext condicion() throws RecognitionException {
@@ -519,14 +471,6 @@ public class TareasParser extends Parser {
 			return getToken(TareasParser.MINUS, i);
 		}
 		public ExprContext(ExpresionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitExpr(this);
-		}
 	}
 
 	public final ExpresionContext expresion() throws RecognitionException {
@@ -593,27 +537,11 @@ public class TareasParser extends Parser {
 	public static class NumContext extends TerminoContext {
 		public TerminalNode NUMBER() { return getToken(TareasParser.NUMBER, 0); }
 		public NumContext(TerminoContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterNum(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitNum(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IdContext extends TerminoContext {
 		public TerminalNode ID() { return getToken(TareasParser.ID, 0); }
 		public IdContext(TerminoContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).enterId(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TareasListener ) ((TareasListener)listener).exitId(this);
-		}
 	}
 
 	public final TerminoContext termino() throws RecognitionException {
